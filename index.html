@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تقرير الإعلان | البشوات للاستيراد</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', sans-serif;
+    }
+
+    body {
+      background-color: #0c1017;
+      color: #f0f6fc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px 15px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .card {
+      background: #161b22;
+      border: 1px solid #1f6feb;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 8px 24px rgba(31, 111, 235, 0.15);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #58a6ff, transparent);
+    }
+
+    .header-card {
+      text-align: center;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #8b949e;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    .grid-images {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .grid-images img {
+      width: 100%;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 1px solid #30363d;
+    }
+
+    .description {
+      font-size: 14px;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+
+    .stat-card {
+      text-align: center;
+    }
+
+    .stat-label {
+      font-size: 13px;
+      color: #8b949e;
+      margin-bottom: 6px;
+    }
+
+    .stat-value {
+      font-size: 38px;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+    }
+
+    .stat-sub {
+      font-size: 12px;
+      color: #484f58;
+      margin-top: 4px;
+    }
+
+    .cta-card {
+      text-align: center;
+    }
+
+    .btn-telegram {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      background: linear-gradient(135deg, #1f6feb, #1158c7);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 14px 20px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 10px;
+      box-shadow: 0 4px 12px rgba(31, 111, 235, 0.3);
+      transition: transform 0.2s;
+    }
+
+    .btn-telegram:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- الكارت الرئيسي -->
+    <div class="card header-card">
+      <div class="title">البشوات للاستيراد 🇨🇳</div>
+      <div class="subtitle">Stainless steel & gold plated</div>
+      
+      <div class="grid-images">
+        <img src="https://i.ibb.co/LzdCgg59/206015.jpg" alt="طقم مجوهرات">
+        <img src="https://i.ibb.co/qfQY3Hsc/206014.jpg" alt="غوايش ذهبية">
+        <img src="https://i.ibb.co/3mN9m9pG/206008.jpg" alt="أساور وفصوص">
+      </div>
+
+      <div class="description">
+        أرقى تشكيلات الستانلس ستيل والطلاء الذهبي عالي الجودة بالجملة والقطاعي. أحدث الموديلات العصرية وبأفضل الأسعار المميزة. ✨💍
+      </div>
+    </div>
+
+    <!-- كارت المشاهدات -->
+    <div class="card stat-card">
+      <div class="stat-label">المشاهدات</div>
+      <div class="stat-value">50,000</div>
+      <div class="stat-sub">إجمالي مرات الظهور</div>
+    </div>
+
+    <!-- كارت CPM -->
+    <div class="card stat-card">
+      <div class="stat-label">CPM</div>
+      <div class="stat-value">0.37</div>
+      <div class="stat-sub">تكلفة الألف مشاهدة</div>
+    </div>
+
+    <!-- كارت التوجيه للقناة -->
+    <div class="card cta-card">
+      <div class="stat-label">لينك القناة المباشر</div>
+      <a href="https://t.me/ABDALLAH1762002" class="btn-telegram" target="_blank">
+        🔗 زيارة قناة البشوات للاستيراد
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
